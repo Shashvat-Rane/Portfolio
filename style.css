@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    background: #eff4fd;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: #eff4fd;
+}
+
+.logo{
+    padding-top: 1%;
+    width: 180px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    width: 92%;
+    top: 0;
+    left: 5%;
+    /* margin: auto; */
+    /* padding: 20px 0; */
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden; 
+    position: fixed;
+    background: #eff4fd;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+.menu nav a {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    position: relative;
+    padding: 4px 0;
+}
+
+.menu nav a::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s transform ease;
+    transform: scale3d(0, 1, 1);
+    transform-origin: 0 50%;
+}
+
+.menu nav a:hover::before {
+    transform: scale3d(1, 1, 1);
+}
+
+.hero nav a::before {
+    transform-origin: 50% 50%;
+    background: #F06292;
+}
+
+.dete1 {
+    margin-top: 16%;
+    margin-left: 18%;
+}
+
+.dete1 h1 {
+    font-size: 60px;
+    margin-bottom: 1%;
+}
+
+.dete1 h1 span {
+    color: rgb(246, 207, 9);
+}
+
+.dete1 p1 {
+    color: #555;
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+.dete1 p2 {
+    color: #555;
+    font-size: 20px;
+}
+
+.dete1 a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.button a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.photo {
+    width: 45%;
+    height: 0%;
+    position: absolute;
+    bottom: 160px;
+    right: 260px;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+.images img {
+    border-radius: 10%;
+    max-width: 20%;
+    height: auto;
+}
+
+nav a{
+    background: #eff4fd;
+    overflow: hidden; 
+    position: fixed;
+}
+
+
+
+
+/* --------------------- ABOUT --------------------- */
+
+#about {
+    background: #eff4fd;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2 {
+    padding-top: 5%;
+    color: #000000;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(36, 36, 36, .809);
+    background-color: #eff4fd;
+}
+
+.about__info{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+
+.about__box{
+    display: inline-block;
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 0.75rem;
+    width : 350px;
+    height : 160px;
+    background-color: #ffffff;
+    
+}
+
+.about__box h3{
+    background-color: #ffffff;
+}
+
+.about__description{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    font-size: 1.25rem;
+    color: rgba(36, 36, 36, .809);
+}
+
+.about__title{
+    color: rgba(36, 36, 36, .809);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.about__subtitle{
+    color: rgba(36, 36, 36, .809);
+    background-color: #ffffff;
+}
+
+.icon{
+    margin-top: 5%;
+}
+
+
+/* --------------------- ACHIEVEMENTS --------------------- */
+
+#achievements {
+    background: #eff4fd;
+}
+
+.ach_info2{
+    margin-top: 2%;
+}
+
+.ach_icon{
+    margin-top: 5%;
+    background-color: #ffffff;
+}
+
+.ach_title a {
+    text-decoration: none;
+    color: rgba(36, 36, 36, .809);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #ffffff;
+}
+
+
+
+/* --------------------- SKILLS --------------------- */
+
+
+
+.skills_title{
+    margin-top: 3%;
+}
+
+.skills_box{
+    border: 2px solid rgba(0,0,0,.1);
+    border-radius: 1rem;
+    height: 200px;
+}
+
+.skills_subtitle{
+    line-height: 1.5rem;
+}
+
+
+
+/* --------------------- CONTACT --------------------- */
+
+.contact1{
+    margin-bottom: 0%;
+}
+.contact2{
+    margin-top: 4px;
+    margin-bottom: 8%;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconc{
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.contact_title{
+    padding-top: 1%;
+    padding-bottom: 6%;
+}
+
+.contact_subtitle a{
+    text-decoration: none;
+    color: rgba(36, 36, 36, .809);;
+    line-height: 0.2rem;
+    background: #ffffff;
+}
+
+.contact_subtitle a{
+    display: inline-block;
+    margin-top: 10px;
+}
