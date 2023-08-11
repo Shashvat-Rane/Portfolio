@@ -139,7 +139,7 @@ nav ul li {
     position: absolute;
     bottom: 160px;
     right: 260px;
-    box-shadow: 10px 10px 5px 12px lightblue;
+    box-shadow: 20px 20px 50px 12px rgb(133, 61, 49);
 }
 
 .images img {
